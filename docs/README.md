@@ -12,7 +12,7 @@ The official website for PRODDEC Forum at College of Engineering Chengannur.
 Firebase Hosting
 
 ### Deployment
-URL: [https://cec-proddec.web.app/](https://cec-proddec.web.app/)
+[https://cec-proddec.web.app/](https://cec-proddec.web.app/)
 
 ### Contact Info
 [proddec@ceconline.edu](mailto:proddec@ceconline.edu)
