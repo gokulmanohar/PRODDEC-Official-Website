@@ -1,0 +1,144 @@
+/* 1. Extra small devices (phones, 576px and down) */
+
+@media only screen and (max-width: 576px) {
+	.heading h1 {
+		font-size: 50px;
+	}
+	.heading h3 {
+		font-size: 20px;
+	}
+	.newsletter-right, .newsletter-left {
+		height: 150px;
+	}
+	.newsletter-right-inner {
+		padding: 10px;
+		left: 10px;
+		top: 10px;
+		width: calc(100% - 20px);
+		height: calc(100% - 20px);
+		display: table;
+	}
+	.newsletter-right-inner form {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.newsletter-left-inner h1 {
+		font-size: 20px;
+	}
+	.header-page .inner-content .header-content h1 {
+		font-size: 40px;
+	}
+	.header-page {
+		min-height: 250px;
+	}
+	.header-page .inner-content {
+		height: 200px;
+	}
+}
+
+/* 2. Small devices (portrait tablets and large phones, 576px and up) */
+
+@media only screen and (min-width: 576px) {
+	.heading h1 {
+		font-size: 55px;
+	}
+	.heading h3 {
+		font-size: 22px;
+	}
+	.newsletter-right, .newsletter-left {
+		height: 200px;
+	}
+	.newsletter-right-inner {
+		padding: 10px;
+		left: 10px;
+		top: 10px;
+		width: calc(100% - 20px);
+		height: calc(100% - 20px);
+		display: table;
+	}
+	.newsletter-right-inner form {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.newsletter-left-inner h1 {
+		font-size: 20px;
+	}
+	.header-page .inner-content .header-content h1 {
+		font-size: 45px;
+	}
+	.header-page {
+		min-height: 300px;
+	}
+	.header-page .inner-content {
+		height: 250px;
+	}
+}
+
+/* 3. Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+	.heading h1 {
+		font-size: 60px;
+	}
+	.heading h3 {
+		font-size: 24px;
+	}
+	.newsletter-right, .newsletter-left {
+		height: 250px;
+	}
+	.header-page .inner-content .header-content h1 {
+		font-size: 50px;
+	}
+	.header-page {
+		min-height: 350px;
+	}
+	.header-page .inner-content {
+		height: 300px;
+	}
+}
+
+/* 4. Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+	.heading h1 {
+		font-size: 65px;
+	}
+	.heading h3 {
+		font-size: 26px;
+	}
+	.newsletter-right, .newsletter-left {
+		height: 280px;
+	}
+	.header-page .inner-content .header-content h1 {
+		font-size: 55px;
+	}
+	.header-page {
+		min-height: 400px;
+	}
+	.header-page .inner-content {
+		height: 350px;
+	}
+}
+
+/* 5. Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+	.heading h1 {
+		font-size: 70px;
+	}
+	.heading h3 {
+		font-size: 28px;
+	}
+	.newsletter-right, .newsletter-left {
+		height: 300px;
+	}
+	.header-page .inner-content .header-content h1 {
+		font-size: 60px;
+	}
+	.header-page {
+		min-height: 450px;
+	}
+	.header-page .inner-content {
+		height: 400px;
+	}
+}
