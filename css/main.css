@@ -268,8 +268,9 @@ b {
 .sidebarMenuInner li {
     list-style: none;
     color: var(--primary-text-color);
-    text-transform: uppercase;
+    font-family: 'Lato';
     font-weight: bold;
+    text-transform: uppercase;
     padding: 20px;
     cursor: pointer;
 }
