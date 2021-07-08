@@ -726,10 +726,7 @@ span.position {
     padding-left: 30px;
     letter-spacing: 1px;
     color: var(--secondary-text-color);
-}
-
-.description-info {
-    font-weight: 100;
+    font-weight: 400;
 }
 
 /* =Footer
@@ -830,18 +827,21 @@ ul.social-media li a i:hover {
 
 /* =Notice
 -------------------------------------------------------------- */
-#accordionNotice .card{
-    background-color: var(--on-surface-color);
-}
-#accordionNotice .card-body{
+
+#accordionNotice .card {
     background-color: var(--on-surface-color);
 }
 
-#accordionNotice .card-header{
+#accordionNotice .card-body {
+    background-color: var(--on-surface-color);
+}
+
+#accordionNotice .card-header {
     background-color: var(--on-surface-color);
     text-align: center;
 }
-#accordionNotice .btn-link{
+
+#accordionNotice .btn-link {
     color: var(--primary-accent-color);
     box-shadow: none
 }
