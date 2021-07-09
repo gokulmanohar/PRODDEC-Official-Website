@@ -218,9 +218,10 @@ b {
     border: none;
 }
 
-.alert {
+.alert a {
     margin-top: 3em;
     font-family: 'Lato';
+    color: #0c5460;
 }
 
 /* =Navigation Header
