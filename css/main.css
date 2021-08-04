@@ -677,6 +677,30 @@ span.position {
     opacity: 1;
 }
 
+.past-events {
+    float: left;
+    font-family: 'Lato';
+    color: var(--primary-accent-color);
+    margin: 0.5em;
+}
+
+.past-events:hover {
+    color: var(--primary-accent-color);
+    text-decoration: underline;
+}
+
+.new-events {
+    float: right;
+    font-family: 'Lato';
+    color: var(--primary-accent-color);
+    margin: 0.5em;
+}
+
+.new-events:hover {
+    color: var(--primary-accent-color);
+    text-decoration: underline;
+}
+
 /* =Member Registration
 -------------------------------------------------------------- */
 
