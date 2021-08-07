@@ -567,8 +567,15 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     letter-spacing: 1.5pt;
 }
 
-/* =Ex-Execom
+/* =Owl Carousel
 -------------------------------------------------------------- */
+.media-heading{
+    font-size: 1.1em;
+    font-family: 'Lato';
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--primary-accent-color);
+}
 
 .member {
     margin: auto;
@@ -589,7 +596,7 @@ span.position {
     color: var(--primary-text-color);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
-    margin-top: 6px;
+    margin-top: 10px;
     float: left;
     text-transform: uppercase;
 }
