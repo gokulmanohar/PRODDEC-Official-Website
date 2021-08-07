@@ -1,0 +1,1 @@
+cwebp start-here-thumbnail.png -q 80 -o start-here-thumbnail.webp
