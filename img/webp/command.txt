@@ -1,1 +1,1 @@
-cwebp start-here-thumbnail.png -q 80 -o start-here-thumbnail.webp
+cwebp pitch-the-deck-banner.jpg -q 80 -o pitch-the-deck-banner.webp

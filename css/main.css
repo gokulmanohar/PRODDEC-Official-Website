@@ -569,7 +569,8 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 
 /* =Owl Carousel
 -------------------------------------------------------------- */
-.media-heading{
+
+.media-heading {
     font-size: 1.1em;
     font-family: 'Lato';
     margin-bottom: 20px;
@@ -706,6 +707,75 @@ span.position {
 .new-events:hover {
     color: var(--primary-accent-color);
     text-decoration: underline;
+}
+
+/* =Event-Details
+-------------------------------------------------------------- */
+
+#event-details-introduction {
+    color: var(--secondary-text-color);
+    font-family: 'Lato';
+    font-size: 1.02em;
+    margin-top: 2em;
+}
+
+#event-details-main-image img {
+    margin-top: 4em;
+    max-width: 100%;
+    height: auto;
+}
+
+#event-details-theme {
+    font-family: 'Lato';
+    font-size: 1em;
+    color: var(--primary-accent-color);
+    margin-top: 16px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.desc {
+    font-family: 'Lato';
+    text-align: center;
+    font-size: 1.02em;
+    color: var(--secondary-text-color);
+}
+
+.desc-calender {
+    margin-bottom: 2em;
+}
+
+.desc .e-heading {
+    color: var(--primary-accent-color);
+}
+
+#subject-to-change p {
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--tertiary-text-color);
+}
+
+#event-details-rules {
+    font-family: 'Lato';
+    color: var(--secondary-text-color);
+    text-align: left;
+}
+
+#event-details-rules ul>li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#event-details-further-instructions p {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1em;
+    font-family: 'Lato';
+    color: var(--primary-text-color);
+}
+
+#event-details-further-instructions p a {
+    color: var(--primary-accent-color);
 }
 
 /* =Member Registration
