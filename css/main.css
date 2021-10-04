@@ -946,3 +946,11 @@ ul.social-media li a i:hover {
     color: var(--primary-accent-color);
     box-shadow: none
 }
+
+#noticeImage {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
