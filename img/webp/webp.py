@@ -13,6 +13,6 @@ if file_list:
             result = subprocess.run(command, stdout=subprocess.PIPE)
             print(result.stdout)
         except:
-            print("Error occured!")
+            print("Error occured")
 else:
-    print("No image files (jpg, png, jpeg) found!")
+    print("No image files (jpg, png, jpeg) found")
