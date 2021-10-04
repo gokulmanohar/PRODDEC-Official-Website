@@ -1,5 +1,5 @@
 import os
-import sys
+import subprocess
 file_list = []
 dir_list = os.listdir()
 for i in dir_list:
@@ -7,10 +7,12 @@ for i in dir_list:
         file_list.append(i)
 if file_list:
     for file_name in file_list:
-        command = "cwebp "  + file_name + " -q 80 -o " + file_name.split(".")[0] + ".webp"
+        print("\nConverting "+ file_name + "\n")
+        command = "cwebp "  + '"' + file_name + '"' + " -q 80 -o " + '"' + file_name.split(".")[0] + ".webp" + '"'
         try:
-            os.system(command)
+            result = subprocess.run(command, stdout=subprocess.PIPE)
+            print(result.stdout)
         except:
             print("Error occured!")
 else:
-    sys.exit("No image files (jpg, png, jpeg) found!")
+    print("No image files (jpg, png, jpeg) found!")
