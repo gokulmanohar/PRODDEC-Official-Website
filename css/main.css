@@ -947,7 +947,7 @@ ul.social-media li a i:hover {
     box-shadow: none
 }
 
-#noticeImage {
+.noticeImage {
     max-width: 50%;
     height: auto;
     display: block;
