@@ -1,4 +1,4 @@
-## PRODDEC Website
+## PRODDEC Official Website
 The official website for PRODDEC Forum at College of Engineering Chengannur. 
    
 [![Firebase](Readme-Files/built-with-firebase.svg)](https://firebase.google.com/) 
