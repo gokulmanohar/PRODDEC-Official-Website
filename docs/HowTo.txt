@@ -1,0 +1,18 @@
+Reference
+	Documentation: https://firebase.google.com/docs/cli
+	test previews: https://firebase.google.com/docs/hosting/test-preview-deploy
+
+Deploy Everything Command
+	firebase deploy --only hosting
+
+Emulator
+	firebase emulators:start
+
+Preview Channel Command
+	firebase hosting:channel:deploy firebase-test
+
+Firefox Browser loading local files
+	about:config ->	privacy.file_unique_origin [flag set to false]
+
+Add recaptcha
+	App Check tab
