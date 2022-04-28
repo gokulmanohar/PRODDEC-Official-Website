@@ -1,0 +1,1 @@
+cwebp pitch-the-deck-banner.jpg -q 80 -o pitch-the-deck-banner.webp
