@@ -66,3 +66,9 @@ private/
 
 # dotenv environment variables file
 .env
+
+# Files or Folders
+public/img/webp/**/*.jpg
+public/img/webp/**/*.png
+public/img/webp/**/*.jpeg
+public/img/webp/**/*.webp
