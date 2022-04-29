@@ -64,7 +64,8 @@ a:hover {
     text-decoration: none;
 }
 
-a, a:visited {
+a,
+a:visited {
     font-weight: 400;
     text-decoration: none;
 }
@@ -106,7 +107,12 @@ h6 {
     font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1.3pt;
     color: var(--primary-text-color);
@@ -187,6 +193,7 @@ b {
         -webkit-transform: translate3d(0, 80px, 0);
         transform: translate3d(0, 80px, 0)
     }
+
     100% {
         opacity: 1;
         -webkit-transform: none;
@@ -201,6 +208,7 @@ b {
         -ms-transform: translate3d(0, 80px, 0);
         transform: translate3d(0, 80px, 0)
     }
+
     100% {
         opacity: 1;
         -webkit-transform: none;
@@ -675,14 +683,15 @@ span.position {
     font-size: 1em;
     font-weight: 600;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    background-color: var(--red-color);
-    width: 3em;
     animation: opacityPulse 2s ease-out;
     animation-iteration-count: infinite;
     opacity: 1;
+}
+
+.live-ticker>span {
+    background-color: var(--red-color);
+    padding: 0.2em;
+    /* border-radius: 3px; */
 }
 
 .past-events {
@@ -821,7 +830,8 @@ span.position {
     color: var(--secondary-text-color);
 }
 
-.title-info, .description-info {
+.title-info,
+.description-info {
     font-size: 15px;
     display: block;
     padding-left: 30px;
