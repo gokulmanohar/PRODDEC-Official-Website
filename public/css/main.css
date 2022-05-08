@@ -724,7 +724,7 @@ span.position {
 #event-details-introduction {
     color: var(--secondary-text-color);
     font-family: 'Lato';
-    font-size: 1.02em;
+    font-size: 1.1em;
     margin-top: 2em;
 }
 
@@ -736,11 +736,16 @@ span.position {
 
 #event-details-theme {
     font-family: 'Lato';
-    font-size: 1em;
+    font-size: 1.1em;
     color: var(--primary-accent-color);
     margin-top: 16px;
     margin-bottom: 14px;
     text-align: center;
+}
+
+#event-details-theme-break {
+    display: block;
+    margin: 1em;
 }
 
 .desc {
