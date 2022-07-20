@@ -17,6 +17,5 @@ The official website for PRODDEC Forum at College of Engineering Chengannur.
 ### Contact Info
 [proddec@ceconline.edu](mailto:proddec@ceconline.edu)
 
-
 ### Developer
-[Gouri G Varma](mailto:gourivarma101@gmail.com)
+[Gokul Manohar](mailto:dev.gokulmanohar@gmail.com)
