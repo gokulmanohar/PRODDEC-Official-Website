@@ -19,4 +19,4 @@ The official website for PRODDEC Forum at College of Engineering Chengannur.
 
 
 ### Developer
-[Gokul Manohar](mailto:dev.gokulmanohar@gmail.com)
+[Gouri G Varma](mailto:gourivarma101@gmail.com)
